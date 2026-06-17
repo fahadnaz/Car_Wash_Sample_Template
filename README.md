@@ -1,18 +1,49 @@
-# React + Vite
+Extract the ZIP file
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Unzip the project to a folder on your computer.
 
-Currently, two official plugins are available:
+2. Install Node.js
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+Make sure you have Node.js installed.
 
-## React Compiler
+Check if it's installed:
 
-The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
+node -v
+npm -v
 
-Note: This will impact Vite dev & build performances.
+If you see version numbers, you're good to go.
 
-## Expanding the ESLint configuration
+3. Open a terminal in the project folder
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Navigate to the extracted folder:
+
+cd path/to/project
+4. Install dependencies
+
+Look for a file named package.json. If it exists, run:
+
+npm install
+
+This downloads all required packages.
+
+5. Start the development server
+
+Check the scripts section in package.json. Common commands are:
+
+npm start
+
+or
+
+npm run dev
+
+6. Open the browser
+
+After the server starts, you'll usually see something like:
+
+Local: http://localhost:3000
+
+or
+
+http://localhost:5173
+
+Open that URL in your browser.
